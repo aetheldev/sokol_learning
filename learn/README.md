@@ -6,6 +6,7 @@ Goal: learn Odin + Sokol in order, then turn fundamentals into puzzle games and 
 
 ```txt
 learn/
+  MASTER_TICKET_LIST.md
   fundamentals/
     t01_hello_window
     ...
@@ -13,6 +14,7 @@ learn/
   production_with_sauce/
   projects/
     sokoban/
+    turn_based_card_game/
   design/
     puzzle_game_ideas/
   co_op/
@@ -34,6 +36,12 @@ Then run any lesson/project:
 cd learn/fundamentals/t04_gravity_jump
 zsh build.sh
 ```
+
+## Master Path
+
+If you want one big ordered checklist, start with:
+
+`learn/MASTER_TICKET_LIST.md`
 
 ## Fundamentals Order
 
@@ -74,7 +82,11 @@ Mouse painting, tile editing, spawn placement, console export.
 
 `learn/projects/sokoban`
 
+`learn/projects/turn_based_card_game`
+
 First full puzzle game using what you learned.
+
+First turn-based state-machine game path.
 
 Suggested next upgrades:
 1. Undo

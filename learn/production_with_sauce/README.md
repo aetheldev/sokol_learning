@@ -53,6 +53,13 @@ Production path:
 3. Read `03_sokoban_in_sauce.md`
 4. Read `04_coop_puzzle_in_sauce.md`
 5. Use `05_production_tickets.md` as working roadmap
+6. Read `06_what_is_sokol.md`
+7. Read `07_sokol_header_map.md`
+8. Read `08_how_to_make_a_game.md`
+9. Read `09_visual_effects_roadmap.md`
+10. Read `10_genre_roadmap.md`
+11. Save `11_sokol_upgrade_checklist.md` for future refresh
+12. Read `12_turn_based_card_game_in_sauce.md` if you want card/turn-based path
 
 ## Important Mindset
 
