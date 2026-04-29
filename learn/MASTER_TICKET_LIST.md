@@ -28,6 +28,18 @@ How to use this file:
 - [ ] Ticket 018 - T09 Shader And Glow
 - [ ] Ticket 019 - T10 Particles And Screen Shake
 - [ ] Ticket 020 - T11 Level Editor Basics
+- [ ] Ticket 021 - V01 Glow Highlight
+- [ ] Ticket 022 - V02 Elemental Orbs
+- [ ] Ticket 023 - V03 Burning Effect
+- [ ] Ticket 024 - V04 Laser Beam
+- [ ] Ticket 025 - Advanced Rendering Mindset
+- [ ] Ticket 026 - Advanced Shader Pipeline And Post FX
+- [ ] Ticket 027 - Advanced Production Glow And Bloom
+- [ ] Ticket 028 - Advanced Fire And Elemental FX
+- [ ] Ticket 029 - Advanced Laser And Beam FX
+- [ ] Ticket 029A - Advanced Sokoban In Sauce Plus FX
+- [ ] Ticket 029B - Advanced Card Game In Sauce Plus FX
+- [ ] Ticket 029C - Advanced Co-op Game In Sauce Plus FX
 - [ ] Ticket 030 - Sokoban Starter
 - [ ] Ticket 031 - Co-op Prototype
 - [ ] Ticket 032 - Turn-Based Card Game Starter
@@ -298,6 +310,129 @@ If you do this, also try:
 - make tile `6` for pressure plate
 
 ---
+
+## Phase 2 - Small Standalone Projects
+
+## Phase 1.5 - VFX Practice
+
+### Ticket 021 - V01 Glow Highlight
+
+Read:
+- `learn/vfx/v01_glow_highlight/LESSON.md`
+
+Do:
+- make one selected object feel special
+
+Practice:
+- add left/right selection
+- make glow stronger on selected item
+- change one glow color completely
+
+### Ticket 022 - V02 Elemental Orbs
+
+Read:
+- `learn/vfx/v02_elemental_orbs/LESSON.md`
+
+Do:
+- build at least 2 elements
+
+Practice:
+- fire rises quickly
+- ice drifts softly
+- poison hangs and pulses
+
+### Ticket 023 - V03 Burning Effect
+
+Read:
+- `learn/vfx/v03_burning_effect/LESSON.md`
+
+Do:
+- ignite one target
+
+Practice:
+- spawn embers upward
+- add glow while burning
+- tune burn time
+
+### Ticket 024 - V04 Laser Beam
+
+Read:
+- `learn/vfx/v04_laser_beam/LESSON.md`
+
+Do:
+- draw one beam and impact
+
+Practice:
+- pulse beam width
+- add impact sparks
+- imagine how this maps into mirror puzzle later
+
+## Phase 1.75 - Advanced Preview
+
+### Ticket 025 - Advanced Rendering Mindset
+
+Read:
+- `learn/advanced/README.md`
+- `learn/advanced/a01_sauce_rendering_mindset.md`
+
+Do:
+- understand what changes when effect becomes render feature
+
+### Ticket 026 - Advanced Shader Pipeline And Post FX
+
+Read:
+- `learn/advanced/a02_shader_pipeline_and_postfx.md`
+
+Do:
+- explain object shader vs full-screen post-process shader
+
+### Ticket 027 - Advanced Production Glow And Bloom
+
+Read:
+- `learn/advanced/a03_production_glow_and_bloom.md`
+
+Do:
+- decide what should use fake glow vs real bloom in your game
+
+### Ticket 028 - Advanced Fire And Elemental FX
+
+Read:
+- `learn/advanced/a04_fire_burn_and_elemental_fx.md`
+
+Do:
+- define 3-element visual language for your future game
+
+### Ticket 029 - Advanced Laser And Beam FX
+
+Read:
+- `learn/advanced/a05_lasers_mirrors_and_beam_fx.md`
+
+Do:
+- map beam gameplay rules to beam rendering needs
+
+### Ticket 029A - Advanced Sokoban In Sauce Plus FX
+
+Read:
+- `learn/advanced/a11_sokoban_in_sauce_plus_fx.md`
+
+Do:
+- decide how your Sokoban in `sauce/` should feel, not just function
+
+### Ticket 029B - Advanced Card Game In Sauce Plus FX
+
+Read:
+- `learn/advanced/a12_card_game_in_sauce_plus_fx.md`
+
+Do:
+- decide how card play feedback should look and feel in `sauce/`
+
+### Ticket 029C - Advanced Co-op Game In Sauce Plus FX
+
+Read:
+- `learn/advanced/a13_coop_game_in_sauce_plus_fx.md`
+
+Do:
+- decide which effects are critical for two-player clarity in `sauce/`
 
 ## Phase 2 - Small Standalone Projects
 
@@ -715,26 +850,30 @@ Practice:
 12. `learn/fundamentals/t09_shaders_bloom/LESSON.md`
 13. `learn/fundamentals/t10_particles_screenshake/LESSON.md`
 14. `learn/fundamentals/t11_level_editor_basics/LESSON.md`
-15. `learn/projects/sokoban/main.odin`
-16. `learn/co_op/different_views_puzzle/prototype/main.odin`
-17. `learn/projects/turn_based_card_game/README.md`
-18. `learn/production_with_sauce/README.md`
-19. `learn/production_with_sauce/01_architecture_map.md`
-20. `learn/production_with_sauce/02_fundamentals_to_sauce.md`
-21. `learn/production_with_sauce/06_what_is_sokol.md`
-22. `learn/production_with_sauce/07_sokol_header_map.md`
-23. `learn/production_with_sauce/08_how_to_make_a_game.md`
-24. `learn/production_with_sauce/09_visual_effects_roadmap.md`
-25. `learn/production_with_sauce/10_genre_roadmap.md`
-26. `learn/production_with_sauce/12_turn_based_card_game_in_sauce.md`
-27. `learn/production_with_sauce/03_sokoban_in_sauce.md`
-28. `learn/production_with_sauce/04_coop_puzzle_in_sauce.md`
-29. `learn/production_with_sauce/05_production_tickets.md`
-30. `sauce/core_main.odin`
-31. `sauce/game.odin`
-32. `sauce/entity.odin`
-33. `sauce/core_render.odin`
-34. `sauce/build/build.odin`
+15. `learn/vfx/v01_glow_highlight/LESSON.md`
+16. `learn/vfx/v02_elemental_orbs/LESSON.md`
+17. `learn/vfx/v03_burning_effect/LESSON.md`
+18. `learn/vfx/v04_laser_beam/LESSON.md`
+19. `learn/projects/sokoban/LESSON.md`
+20. `learn/co_op/different_views_puzzle/prototype/LESSON.md`
+21. `learn/projects/turn_based_card_game/LESSON.md`
+22. `learn/production_with_sauce/README.md`
+23. `learn/production_with_sauce/01_architecture_map.md`
+24. `learn/production_with_sauce/02_fundamentals_to_sauce.md`
+25. `learn/production_with_sauce/06_what_is_sokol.md`
+26. `learn/production_with_sauce/07_sokol_header_map.md`
+27. `learn/production_with_sauce/08_how_to_make_a_game.md`
+28. `learn/production_with_sauce/09_visual_effects_roadmap.md`
+29. `learn/production_with_sauce/10_genre_roadmap.md`
+30. `learn/production_with_sauce/12_turn_based_card_game_in_sauce.md`
+31. `learn/production_with_sauce/03_sokoban_in_sauce.md`
+32. `learn/production_with_sauce/04_coop_puzzle_in_sauce.md`
+33. `learn/production_with_sauce/05_production_tickets.md`
+34. `sauce/core_main.odin`
+35. `sauce/game.odin`
+36. `sauce/entity.odin`
+37. `sauce/core_render.odin`
+38. `sauce/build/build.odin`
 
 ---
 

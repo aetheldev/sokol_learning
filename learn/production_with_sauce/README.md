@@ -63,6 +63,7 @@ Production path:
 10. Read `10_genre_roadmap.md`
 11. Save `11_sokol_upgrade_checklist.md` for future refresh
 12. Read `12_turn_based_card_game_in_sauce.md` if you want card/turn-based path
+13. Then read related advanced sauce docs in `learn/advanced/` for polish path
 
 ## Important Mindset
 

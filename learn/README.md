@@ -17,10 +17,13 @@ learn/
     t01_hello_window
     ...
     t11_level_editor_basics
+  vfx/
+  advanced/
   solutions/
     fundamentals/
     projects/
     co_op/
+    vfx/
   production_with_sauce/
   projects/
     sokoban/
@@ -63,8 +66,11 @@ Important:
 - `learn/fundamentals/` now contains lesson instructions only
 - `learn/projects/` now contains lesson instructions only
 - `learn/co_op/` prototype folders now contain lesson instructions only
+- `learn/vfx/` now contains lesson instructions only
+- `learn/advanced/` contains production-style reading path
 - runnable answers moved to `learn/solutions/fundamentals/`
 - runnable project/co-op answers moved to `learn/solutions/...`
+- runnable VFX answers moved to `learn/solutions/vfx/`
 - lesson folders will not run until you write your own `main.odin`
 
 ## Fundamentals Order
